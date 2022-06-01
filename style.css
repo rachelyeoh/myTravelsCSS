@@ -1,0 +1,130 @@
+* {
+    font-family: Georgia, Arial, sans-serif;
+    font-weight: bold;
+}
+
+header img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    display: block;
+    background-color: rgb(206, 85, 85);
+    font-size: 23px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f5dddd;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #77bdbf;
+    color: black;
+}
+
+main .index{
+    margin-left: 30px;
+}
+
+/* Stories.html styles */
+section h1,blockquote {
+    text-align: center;
+}
+
+main p,h3{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.stories {
+    text-align: center;
+}
+
+.stories img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+.stories article {
+    display: inline-block;
+    width: 30%;
+    margin: 20px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Contact.html style */
+.contact {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.contact-main {
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 0 20em;
+}
+
+form label{
+    display: block;
+    margin: 10px 5px;
+    text-align: left;
+}
+
+label.social, label p{
+    text-align: left;
+    margin: 0;
+}
+
+input, textarea, select {
+    border: grey solid 1px;
+    border-radius: 5px;
+}
+
+legend {
+    display: none;
+}
+
+fieldset {
+    border: 0px;
+}
+
+#fname, #lname, #comment, #country {
+    display: inline;
+    width: 95%;
+}
+
+#fname, #lname, #country {
+    padding: 20px;
+}
+
+.social {
+    display: inline;
+}
+
+textarea{
+    height: 200px;
+}
+
+#submit-button {
+    background-color: rgb(39, 146, 39);
+    color: white;
+    padding: 10px;
+    position: relative;
+    right: 360px;
+}
+
+#submit-button:hover {
+    background-color: rgb(22, 93, 22);
+    cursor: pointer;
+}

@@ -101,19 +101,30 @@ fieldset {
 
 #fname, #lname, #comment, #country {
     display: inline;
-    width: 95%;
+    width: 100%;
 }
 
 #fname, #lname, #country {
-    padding: 20px;
+    padding: 15px 0px;
 }
 
-.social {
+/* .social {
     display: inline;
+} */
+
+.social {
+    padding-left: 20px;
+}
+
+.comment-container {
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 textarea{
+    box-sizing: border-box;
     height: 200px;
+    width: 80%:
 }
 
 #submit-button {
